@@ -36,7 +36,4 @@ class BowlingGame:
         return self.rolls[rollIndex] + self.rolls[rollIndex + 1]
 
 
-class OutOfScopeRoll(RuntimeError):
-    pass
-
 
